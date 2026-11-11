@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ephemeralChat
 
-## Getting Started
+A minimalistic, modern chat platform designed for temporary, private conversations.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Join & Create**: Simple interface to establish a temporary chat room.
+- **Ephemeral Rooms**: Every chat room is designed for short-term interaction and is automatically deleted after 24 hours.
+- **Unique Server Keys**: Create a server and receive a unique 6-character key to invite others.
+- **Real-time Interaction**: Send and receive messages with high-quality text and emoji support.
+- **Privacy-First**: Conversations are ephemeral by design, ensuring that data doesn't persist longer than necessary.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## How to Use
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 1. Create a Room
+Click **Create** on the landing page to generate a new chat room. You will be provided with a unique 6-character code.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 2. Join a Room
+Share the 6-character key with your participants. Others can join by clicking **Join** on the landing page and entering the valid key.
 
-## Learn More
+### 3. Expiry
+To ensure privacy and maintain a lean system, all chat rooms are permanently deleted 24 hours after creation. Ensure you communicate and share any necessary information within this timeframe.
 
-To learn more about Next.js, take a look at the following resources:
+## Technical Specifications
+- **Frontend**: Minimalist, professional UI designed for clarity and ease of use.
+- **Deployment**: Optimized for Vercel Hobby Plan.
+- **Persistence**: Short-lived data storage with automatic cleanup.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+*Built for quick, secure, and temporary communication.*
