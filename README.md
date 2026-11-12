@@ -1,4 +1,5 @@
-# ephemeralChat
+# PyChat
+
 
 A minimalistic, modern chat platform designed for temporary, private conversations.
 
